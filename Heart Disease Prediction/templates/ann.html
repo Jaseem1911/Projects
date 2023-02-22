@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANN</title><link rel="stylesheet" href="../static/css/ann.css">
+</head>
+<body class="body1" style="background-image: url(../static/image/4088661.jpg);">
+    
+    <h1>Heart Disease Predictor</h1>
+    
+    <div class="formhead">
+        <form action="{{url_for('predict')}}" method="post" class="form">
+           
+            <input type="text"name="age" placeholder="Age" size="24" id="b"><br><br>
+            <tr><td ><select name="Sex" id="a" >
+                <option value="" >Sex</option>
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+            </select></td></tr><br><br>
+            <tr><td ><select name="cp" id="a" size="">
+                <option value="">Chest pain type</option>
+                <option value="0">typical angina</option>
+                <option value="1">atypical angina</option>
+                <option value="2">non-anginal pain</option>
+                <option value="3">asymptomatic</option>
+            </select></td></tr><br><br>
+            <input type="text" name="trestbps" placeholder="Resting Blood pressure (in mm Hg)" id="b"><br><br>
+            <input type="text" name="chol" placeholder="Serum Cholestrol in mg/dl eg 220" id="b"><br><br>
+            <tr><td ><select name="fbs" id="a" size="">
+                <option value="">Fasting blood sugar > 120 mg/dl</option>
+                <option value="0">True</option>
+                <option value="1">False</option>
+            </select></td></tr><br><br>
+            <tr><td ><select name="restecg" id="a" size="">
+                <option value="">Resting electrocardiographic results</option>
+                <option value="0">Normal</option>
+                <option value="1">Having ST-T wave abnormality</option>
+                <option value="2">Showing probable or definite  left ventricular hypentrophy by Estes' criteria</option>
+            </select></td></tr><br><br>
+            <input type="text" name="thalach" placeholder="Maximum heart rate achieved eg. 170" id="b"><br><br>
+            <tr><td ><select name="exang" id="a" >
+                <option value="" >Excercise induced angina</option>
+                <option value="0">Yes</option>
+                <option value="1">No</option>
+            </select></td></tr><br><br>
+            <input type="text" name="oldpeak" placeholder="Depression induced by excercise relative to rest eg. 1-5" id="b"><br><br>
+            <tr><td ><select name="slope" id="a" >
+                <option value="" >The slope of the peak excercise ST segment</option>
+                <option value="0">Unsloping</option>
+                <option value="1">Flat</option>
+                <option value="2">Downslopping</option>
+            </select></td></tr><br><br>
+            <tr><td ><select name="ca" id="a" >
+                <option value="" >Number of major vessels(0-3) colored by floursopy</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select></td></tr><br><br>
+            <tr><td ><select name="thal" id="a" >
+                <option value="" >Thalassemia</option>
+                <option value="1">Normal</option>
+                <option value="2">Fixed defect</option>
+                <option value="3">Reversable defect</option>
+            </select></td></tr><br><br>
+            <button>Predict</button>
+        </form>
+       
+    </div>
+    
+    </body>
+</html>

@@ -1,0 +1,30 @@
+#a{
+    width: 509px;
+    height: 25px;
+    text-align: center;
+    margin-left: 200px;
+}
+#b{
+    width: 500px;
+    height: 25px;
+    text-align: center;
+    margin-left: 200px;
+}
+h1{
+    margin-left: 250px;
+    font-family: serif;
+    font-weight: 300;
+    font-style: italic;
+    color: rgb(214, 204, 209);
+    font-size: 50px;
+}
+
+.body1{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button{
+    margin-left: 420px;
+    
+}
