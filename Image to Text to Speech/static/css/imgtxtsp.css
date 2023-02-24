@@ -1,0 +1,66 @@
+body{
+    background-image: url('../image/abc.jfif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+textarea{
+    
+    margin-top: 130px;
+}
+#j{
+    float: left;
+    border: 2px solid white;
+    border-radius: 25px;
+    height:400px;
+    width: 400px;
+    background-image: url('../image/lang.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 200px;
+    margin-top: 200px;
+    
+   
+}
+#k{
+    float: right;
+    border: 2px solid black;
+    border-radius: 25px;
+    height:400px;
+    width: 400px;
+    background-image: url('../image/i.jfif');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin-top:200px;
+    margin-left: 150px;
+    
+}
+#btn{
+    margin-left: 80px;
+    border: 2px solid rgb(243, 239, 239);
+    border-radius: 14px;
+    height: 30px;
+    margin-top: 630px;
+    margin-left: -500px;
+}
+#c{
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 1px solid rgb(13, 13, 13);
+    border-radius: 10px;
+}
+#d{
+    margin-top: 20px;
+    border: 2px solid rgb(0, 255, 132);
+    border-radius: 14px;
+    margin-left: 30px;
+}
+h1{
+    margin-left: 60px;
+    background-color: rgb(208, 202, 202);
+    width: 40%;
+}
+#l{
+    margin-left: 30px;
+    border: 2px solid blue;
+    border-radius: 14px;
+}

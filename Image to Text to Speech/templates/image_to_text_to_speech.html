@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image to text to speech</title>
+    <link rel="stylesheet" href="../static/css/imgtxtsp.css">
+</head>
+<body>
+
+    <div id="i" style="display: flex;">
+        <form action="{{url_for('predict')}}" method="post" class="form">
+
+        <div id="j" >
+            <h1>Language Translator</h1><br><br>
+            <select name="lang" id="l">
+                <option value="">Select Language</option>
+                <option value="Spanish">Spanish</option>
+                <option value="French">French</option>
+                <option value="German">German</option>
+                <option value="Italian">Italian</option>
+                <option value="Latin">Latin</option>
+                <option value="Malayalam">Malayalam</option>
+                <option value="Hindi">Hindi</option>
+            </select><br><br>
+            <textarea id="d" name="w3review" rows="5" cols="45"> {{transalate}} </textarea>
+        </div>
+        <div id="k" >
+        <input id="c" type="file" name="file"><br>
+        <textarea id="d" name="w3review" rows="5" cols="45">{{prediction_text}}  </textarea><br><br>
+         
+        </div>
+
+        </form><br>
+        <button id="btn">submit</button> 
+    </div>
+
+</body>
+<!-- <body><div>
+
+    <div id="j"> <h1>Language Translator</h1>
+
+    </div>
+
+    <div id="k">
+
+    <input type="file"  id="a">
+    
+    <textarea  name="" id="" cols="30" rows="10"></textarea><br>
+   <button id="b">Speak</button>
+</div> -->
+
+</html>
