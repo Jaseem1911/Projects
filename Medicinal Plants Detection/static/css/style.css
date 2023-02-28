@@ -1,0 +1,25 @@
+.body1{
+    background-image: url(../images/tip.jpg);
+}
+.body1 h2{
+    text-align: center;
+
+    
+}
+#area{
+    text-align: center;
+    margin-left: 14cm;
+
+}
+#submit{
+    margin-left: 15.3cm;
+    color:rgb(105, 35, 35);
+    
+}
+.body2 h2{
+    text-align: center;
+    margin-top: 6cm;
+}
+.body2{
+    background-color: steelblue;
+}
