@@ -1,0 +1,19 @@
+                                         Cover Letter
+
+Sub: Cover Letter
+
+Dear Sir/Madam,
+
+The amount of energy and enthusiasm that is associated with Aidash Systems has always interested me in applying for a position of Business Analyst at your company.
+I truly believe that working at your company will be an exciting and enriching experience.
+
+During my internship I have learned valuable skills that appear relevant to the position desired by your company. Some of the skills I have learned are Python,
+Data Structure, OOPs, NumPy, Pandas, Matplotlib, Seaborn, Excel, Data preprocessing, Machine learning, Deep learning, Tableau, SQL, HTML, CSS. If given a chance, I can prove to be a 
+valuable asset with my present skill set.   
+
+I am a good communicator, so I enjoy working in a team and producing results as a part of the team. I also enjoy working independently as and when required of me. 
+
+I would be grateful to have an interview session with you. Please have a look at the resume that I have enclosed with this letter as per your convenience.
+
+Thanking you,
+Jaseem Abbas
